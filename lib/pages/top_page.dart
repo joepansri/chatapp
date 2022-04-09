@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/material.dart';
 import 'package:udemychat/model/user.dart';
+import 'package:udemychat/pages/settiongs_profiled.dart';
 import 'package:udemychat/pages/talk_room.dart';
 
 class TopPage extends StatefulWidget {
@@ -30,6 +31,16 @@ class _TopPageState extends State<TopPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('チャットアプリ'),
+        actions: [
+          IconButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => SettingsProfilePage()));
+              },
+              icon: Icon(Icons.settings))
+        ],
       ),
       body: ListView.builder(
           itemCount: userList.length,
