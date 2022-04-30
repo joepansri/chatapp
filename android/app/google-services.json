@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "625406883906",
+    "project_id": "chatapp-875c2",
+    "storage_bucket": "chatapp-875c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625406883906:android:09040a3112297cbbbed5db",
+        "android_client_info": {
+          "package_name": "com.example.udemychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625406883906-u8f4bgal74bpr20jcbhje89lah4md1dk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp7NHm8NnMZjH96QUqYjqKfDTo6b02pm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625406883906-u8f4bgal74bpr20jcbhje89lah4md1dk.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "625406883906-sodmg9lkv8jr87sjpg0e4afo0064n5q5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.udemychat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
